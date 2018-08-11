@@ -1,0 +1,1697 @@
+EESchema Schematic File Version 4
+LIBS:inu_main-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR03
+U 1 1 5B1E4EF0
+P 900 1600
+F 0 "#PWR03" H 900 1350 50  0001 C CNN
+F 1 "GND" H 900 1450 50  0000 C CNN
+F 2 "" H 900 1600 50  0001 C CNN
+F 3 "" H 900 1600 50  0001 C CNN
+	1    900  1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5B1E5404
+P 3700 1400
+F 0 "#PWR02" H 3700 1150 50  0001 C CNN
+F 1 "GND" H 3700 1250 50  0000 C CNN
+F 2 "" H 3700 1400 50  0001 C CNN
+F 3 "" H 3700 1400 50  0001 C CNN
+	1    3700 1400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2900 1200
+$Comp
+L power:+5V #PWR01
+U 1 1 5B1E8AFD
+P 3000 1100
+F 0 "#PWR01" H 3000 950 50  0001 C CNN
+F 1 "+5V" H 3000 1240 50  0000 C CNN
+F 2 "" H 3000 1100 50  0001 C CNN
+F 3 "" H 3000 1100 50  0001 C CNN
+	1    3000 1100
+	1    0    0    -1  
+$EndComp
+Text Label 3100 1400 0    60   ~ 0
+RESET
+Text Label 1800 3200 2    60   ~ 0
+RESET
+$Comp
+L power:GND #PWR04
+U 1 1 5B1EC50C
+P 2500 3400
+F 0 "#PWR04" H 2500 3150 50  0001 C CNN
+F 1 "GND" H 2500 3250 50  0000 C CNN
+F 2 "" H 2500 3400 50  0001 C CNN
+F 3 "" H 2500 3400 50  0001 C CNN
+	1    2500 3400
+	1    0    0    -1  
+$EndComp
+Text Label 1300 2200 2    60   ~ 0
+COL0
+Text Label 1300 2100 2    60   ~ 0
+COL1
+Text Label 1300 2000 2    60   ~ 0
+COL2
+Text Label 1300 1900 2    60   ~ 0
+COL3
+Text Label 1300 1800 2    60   ~ 0
+COL4
+Text Label 3100 1700 0    60   ~ 0
+COL5
+Text Label 3100 1800 0    60   ~ 0
+ROW0
+Text Label 3100 1900 0    60   ~ 0
+ROW1
+Text Label 3100 2000 0    60   ~ 0
+ROW2
+Text Label 3100 2100 0    60   ~ 0
+ROW3
+Text Label 3100 2200 0    60   ~ 0
+ROW4
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5B243ED5
+P 3700 1200
+F 0 "#FLG02" H 3700 1275 50  0001 C CNN
+F 1 "PWR_FLAG" H 3700 1350 50  0000 C CNN
+F 2 "" H 3700 1200 50  0001 C CNN
+F 3 "" H 3700 1200 50  0001 C CNN
+	1    3700 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5B24414D
+P 3300 1200
+F 0 "#FLG01" H 3300 1275 50  0001 C CNN
+F 1 "PWR_FLAG" H 3300 1350 50  0000 C CNN
+F 2 "" H 3300 1200 50  0001 C CNN
+F 3 "" H 3300 1200 50  0001 C CNN
+	1    3300 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L dm9_misc:pro_micro U1
+U 1 1 5B1DF66C
+P 2200 1700
+F 0 "U1" H 2200 2350 60  0000 C CNN
+F 1 "pro_micro" H 2200 950 60  0000 C CNN
+F 2 "dm9_keyboard:Pro_Micro_Reverse_silk" H 1700 1700 60  0001 C CNN
+F 3 "" H 1700 1700 60  0001 C CNN
+	1    2200 1700
+	1    0    0    -1  
+$EndComp
+Text Label 3100 1600 0    60   ~ 0
+COL6
+NoConn ~ 1500 1600
+NoConn ~ 1500 1700
+Wire Wire Line
+	1500 1500 900  1500
+Wire Wire Line
+	900  1400 900  1500
+Wire Wire Line
+	1500 1400 900  1400
+Connection ~ 900  1500
+Wire Wire Line
+	2900 1300 3700 1300
+Wire Wire Line
+	3700 1200 3700 1300
+Wire Wire Line
+	3000 1500 2900 1500
+Wire Wire Line
+	3000 1100 3000 1200
+Wire Wire Line
+	2900 1400 3100 1400
+Wire Wire Line
+	1800 3200 2000 3200
+Wire Wire Line
+	2400 3200 2500 3200
+Wire Wire Line
+	2500 3200 2500 3400
+Wire Wire Line
+	2900 1800 3100 1800
+Wire Wire Line
+	2900 1900 3100 1900
+Wire Wire Line
+	1300 1900 1500 1900
+Wire Wire Line
+	1300 2000 1500 2000
+Wire Wire Line
+	1300 2100 1500 2100
+Wire Wire Line
+	1300 2200 1500 2200
+Wire Wire Line
+	2900 2000 3100 2000
+Wire Wire Line
+	2900 2100 3100 2100
+Wire Wire Line
+	2900 1700 3100 1700
+Wire Wire Line
+	3300 1200 3000 1200
+Connection ~ 3000 1200
+Connection ~ 3700 1300
+Wire Wire Line
+	1500 1800 1300 1800
+$Comp
+L dm9_connector:MJ-4PP-9 CON2
+U 1 1 5B35182A
+P 2600 5900
+F 0 "CON2" H 2350 6150 60  0000 C CNN
+F 1 "MJ-4PP-9" H 2600 5600 60  0000 C CNN
+F 2 "dm9_conn:MJ-4PP-9" H 2700 5700 60  0001 C CNN
+F 3 "" H 2700 5700 60  0001 C CNN
+	1    2600 5900
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 5B351831
+P 2200 6300
+F 0 "#PWR012" H 2200 6050 50  0001 C CNN
+F 1 "GND" H 2200 6150 50  0000 C CNN
+F 2 "" H 2200 6300 50  0001 C CNN
+F 3 "" H 2200 6300 50  0001 C CNN
+	1    2200 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR09
+U 1 1 5B351837
+P 2200 5500
+F 0 "#PWR09" H 2200 5350 50  0001 C CNN
+F 1 "+5V" H 2200 5640 50  0000 C CNN
+F 2 "" H 2200 5500 50  0001 C CNN
+F 3 "" H 2200 5500 50  0001 C CNN
+	1    2200 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 5700 2200 5700
+Wire Wire Line
+	2200 5700 2200 5500
+Wire Wire Line
+	2300 6100 2200 6100
+Wire Wire Line
+	2200 6100 2200 6300
+$Comp
+L device:D_Small_ALT D2
+U 1 1 5B3536B2
+P 6700 1400
+F 0 "D2" H 6650 1480 50  0000 L CNN
+F 1 "1N4148" H 6550 1320 50  0000 L CNN
+F 2 "dm9_keyboard:D_SOD123_double_side" V 6700 1400 50  0001 C CNN
+F 3 "" V 6700 1400 50  0001 C CNN
+	1    6700 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:D_Small_ALT D3
+U 1 1 5B3536B9
+P 7500 1400
+F 0 "D3" H 7450 1480 50  0000 L CNN
+F 1 "1N4148" H 7350 1320 50  0000 L CNN
+F 2 "dm9_keyboard:D_SOD123_double_side" V 7500 1400 50  0001 C CNN
+F 3 "" V 7500 1400 50  0001 C CNN
+	1    7500 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:D_Small_ALT D4
+U 1 1 5B3536C0
+P 8300 1400
+F 0 "D4" H 8250 1480 50  0000 L CNN
+F 1 "1N4148" H 8150 1320 50  0000 L CNN
+F 2 "dm9_keyboard:D_SOD123_double_side" V 8300 1400 50  0001 C CNN
+F 3 "" V 8300 1400 50  0001 C CNN
+	1    8300 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:D_Small_ALT D5
+U 1 1 5B3536C7
+P 9100 1400
+F 0 "D5" H 9050 1480 50  0000 L CNN
+F 1 "1N4148" H 8950 1320 50  0000 L CNN
+F 2 "dm9_keyboard:D_SOD123_double_side" V 9100 1400 50  0001 C CNN
+F 3 "" V 9100 1400 50  0001 C CNN
+	1    9100 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:D_Small_ALT D6
+U 1 1 5B3536CE
+P 9900 1400
+F 0 "D6" H 9850 1480 50  0000 L CNN
+F 1 "1N4148" H 9750 1320 50  0000 L CNN
+F 2 "dm9_keyboard:D_SOD123_double_side" V 9900 1400 50  0001 C CNN
+F 3 "" V 9900 1400 50  0001 C CNN
+	1    9900 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:D_Small_ALT D7
+U 1 1 5B3536D5
+P 10700 1400
+F 0 "D7" H 10650 1480 50  0000 L CNN
+F 1 "1N4148" H 10550 1320 50  0000 L CNN
+F 2 "dm9_keyboard:D_SOD123_double_side" V 10700 1400 50  0001 C CNN
+F 3 "" V 10700 1400 50  0001 C CNN
+	1    10700 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:D_Small_ALT D9
+U 1 1 5B3536DC
+P 6700 2000
+F 0 "D9" H 6650 2080 50  0000 L CNN
+F 1 "1N4148" H 6550 1920 50  0000 L CNN
+F 2 "dm9_keyboard:D_SOD123_double_side" V 6700 2000 50  0001 C CNN
+F 3 "" V 6700 2000 50  0001 C CNN
+	1    6700 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:D_Small_ALT D10
+U 1 1 5B3536E3
+P 7500 2000
+F 0 "D10" H 7450 2080 50  0000 L CNN
+F 1 "1N4148" H 7350 1920 50  0000 L CNN
+F 2 "dm9_keyboard:D_SOD123_double_side" V 7500 2000 50  0001 C CNN
+F 3 "" V 7500 2000 50  0001 C CNN
+	1    7500 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:D_Small_ALT D11
+U 1 1 5B3536EA
+P 8300 2000
+F 0 "D11" H 8250 2080 50  0000 L CNN
+F 1 "1N4148" H 8150 1920 50  0000 L CNN
+F 2 "dm9_keyboard:D_SOD123_double_side" V 8300 2000 50  0001 C CNN
+F 3 "" V 8300 2000 50  0001 C CNN
+	1    8300 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:D_Small_ALT D12
+U 1 1 5B3536F1
+P 9100 2000
+F 0 "D12" H 9050 2080 50  0000 L CNN
+F 1 "1N4148" H 8950 1920 50  0000 L CNN
+F 2 "dm9_keyboard:D_SOD123_double_side" V 9100 2000 50  0001 C CNN
+F 3 "" V 9100 2000 50  0001 C CNN
+	1    9100 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:D_Small_ALT D13
+U 1 1 5B3536F8
+P 9900 2000
+F 0 "D13" H 9850 2080 50  0000 L CNN
+F 1 "1N4148" H 9750 1920 50  0000 L CNN
+F 2 "dm9_keyboard:D_SOD123_double_side" V 9900 2000 50  0001 C CNN
+F 3 "" V 9900 2000 50  0001 C CNN
+	1    9900 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:D_Small_ALT D14
+U 1 1 5B3536FF
+P 10700 2000
+F 0 "D14" H 10650 2080 50  0000 L CNN
+F 1 "1N4148" H 10550 1920 50  0000 L CNN
+F 2 "dm9_keyboard:D_SOD123_double_side" V 10700 2000 50  0001 C CNN
+F 3 "" V 10700 2000 50  0001 C CNN
+	1    10700 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:D_Small_ALT D16
+U 1 1 5B353706
+P 6700 3000
+F 0 "D16" H 6650 3080 50  0000 L CNN
+F 1 "1N4148" H 6550 2920 50  0000 L CNN
+F 2 "dm9_keyboard:D_SOD123_double_side" V 6700 3000 50  0001 C CNN
+F 3 "" V 6700 3000 50  0001 C CNN
+	1    6700 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:D_Small_ALT D17
+U 1 1 5B35370D
+P 7500 3000
+F 0 "D17" H 7450 3080 50  0000 L CNN
+F 1 "1N4148" H 7350 2920 50  0000 L CNN
+F 2 "dm9_keyboard:D_SOD123_double_side" V 7500 3000 50  0001 C CNN
+F 3 "" V 7500 3000 50  0001 C CNN
+	1    7500 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:D_Small_ALT D18
+U 1 1 5B353714
+P 8300 3000
+F 0 "D18" H 8250 3080 50  0000 L CNN
+F 1 "1N4148" H 8150 2920 50  0000 L CNN
+F 2 "dm9_keyboard:D_SOD123_double_side" V 8300 3000 50  0001 C CNN
+F 3 "" V 8300 3000 50  0001 C CNN
+	1    8300 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:D_Small_ALT D19
+U 1 1 5B35371B
+P 9100 3000
+F 0 "D19" H 9050 3080 50  0000 L CNN
+F 1 "1N4148" H 8950 2920 50  0000 L CNN
+F 2 "dm9_keyboard:D_SOD123_double_side" V 9100 3000 50  0001 C CNN
+F 3 "" V 9100 3000 50  0001 C CNN
+	1    9100 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:D_Small_ALT D20
+U 1 1 5B353722
+P 9900 3000
+F 0 "D20" H 9850 3080 50  0000 L CNN
+F 1 "1N4148" H 9750 2920 50  0000 L CNN
+F 2 "dm9_keyboard:D_SOD123_double_side" V 9900 3000 50  0001 C CNN
+F 3 "" V 9900 3000 50  0001 C CNN
+	1    9900 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:D_Small_ALT D21
+U 1 1 5B353729
+P 10700 3000
+F 0 "D21" H 10650 3080 50  0000 L CNN
+F 1 "1N4148" H 10550 2920 50  0000 L CNN
+F 2 "dm9_keyboard:D_SOD123_double_side" V 10700 3000 50  0001 C CNN
+F 3 "" V 10700 3000 50  0001 C CNN
+	1    10700 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:D_Small_ALT D23
+U 1 1 5B353730
+P 6700 4000
+F 0 "D23" H 6650 4080 50  0000 L CNN
+F 1 "1N4148" H 6550 3920 50  0000 L CNN
+F 2 "dm9_keyboard:D_SOD123_double_side" V 6700 4000 50  0001 C CNN
+F 3 "" V 6700 4000 50  0001 C CNN
+	1    6700 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:D_Small_ALT D24
+U 1 1 5B353737
+P 7500 4000
+F 0 "D24" H 7450 4080 50  0000 L CNN
+F 1 "1N4148" H 7350 3920 50  0000 L CNN
+F 2 "dm9_keyboard:D_SOD123_double_side" V 7500 4000 50  0001 C CNN
+F 3 "" V 7500 4000 50  0001 C CNN
+	1    7500 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:D_Small_ALT D25
+U 1 1 5B35373E
+P 8300 4000
+F 0 "D25" H 8250 4080 50  0000 L CNN
+F 1 "1N4148" H 8150 3920 50  0000 L CNN
+F 2 "dm9_keyboard:D_SOD123_double_side" V 8300 4000 50  0001 C CNN
+F 3 "" V 8300 4000 50  0001 C CNN
+	1    8300 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:D_Small_ALT D26
+U 1 1 5B353745
+P 9100 4000
+F 0 "D26" H 9050 4080 50  0000 L CNN
+F 1 "1N4148" H 8950 3920 50  0000 L CNN
+F 2 "dm9_keyboard:D_SOD123_double_side" V 9100 4000 50  0001 C CNN
+F 3 "" V 9100 4000 50  0001 C CNN
+	1    9100 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:D_Small_ALT D27
+U 1 1 5B35374C
+P 9900 4000
+F 0 "D27" H 9850 4080 50  0000 L CNN
+F 1 "1N4148" H 9750 3920 50  0000 L CNN
+F 2 "dm9_keyboard:D_SOD123_double_side" V 9900 4000 50  0001 C CNN
+F 3 "" V 9900 4000 50  0001 C CNN
+	1    9900 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:D_Small_ALT D28
+U 1 1 5B353753
+P 10700 4000
+F 0 "D28" H 10650 4080 50  0000 L CNN
+F 1 "1N4148" H 10550 3920 50  0000 L CNN
+F 2 "dm9_keyboard:D_SOD123_double_side" V 10700 4000 50  0001 C CNN
+F 3 "" V 10700 4000 50  0001 C CNN
+	1    10700 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:D_Small_ALT D29
+U 1 1 5B35375A
+P 7500 4600
+F 0 "D29" H 7450 4680 50  0000 L CNN
+F 1 "1N4148" H 7350 4520 50  0000 L CNN
+F 2 "dm9_keyboard:D_SOD123_double_side" V 7500 4600 50  0001 C CNN
+F 3 "" V 7500 4600 50  0001 C CNN
+	1    7500 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:D_Small_ALT D30
+U 1 1 5B353761
+P 8300 4600
+F 0 "D30" H 8250 4680 50  0000 L CNN
+F 1 "1N4148" H 8150 4520 50  0000 L CNN
+F 2 "dm9_keyboard:D_SOD123_double_side" V 8300 4600 50  0001 C CNN
+F 3 "" V 8300 4600 50  0001 C CNN
+	1    8300 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:D_Small_ALT D31
+U 1 1 5B353768
+P 9100 4600
+F 0 "D31" H 9050 4680 50  0000 L CNN
+F 1 "1N4148" H 8950 4520 50  0000 L CNN
+F 2 "dm9_keyboard:D_SOD123_double_side" V 9100 4600 50  0001 C CNN
+F 3 "" V 9100 4600 50  0001 C CNN
+	1    9100 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:D_Small_ALT D32
+U 1 1 5B35376F
+P 9900 4600
+F 0 "D32" H 9850 4680 50  0000 L CNN
+F 1 "1N4148" H 9750 4520 50  0000 L CNN
+F 2 "dm9_keyboard:D_SOD123_double_side" V 9900 4600 50  0001 C CNN
+F 3 "" V 9900 4600 50  0001 C CNN
+	1    9900 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:D_Small_ALT D33
+U 1 1 5B353776
+P 10700 4600
+F 0 "D33" H 10650 4680 50  0000 L CNN
+F 1 "1N4148" H 10550 4520 50  0000 L CNN
+F 2 "dm9_keyboard:D_SOD123_double_side" V 10700 4600 50  0001 C CNN
+F 3 "" V 10700 4600 50  0001 C CNN
+	1    10700 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6600 1200 6700 1200
+Wire Wire Line
+	6700 1200 6700 1300
+Wire Wire Line
+	7400 1200 7500 1200
+Wire Wire Line
+	7500 1200 7500 1300
+Wire Wire Line
+	8200 1200 8300 1200
+Wire Wire Line
+	8300 1200 8300 1300
+Wire Wire Line
+	9000 1200 9100 1200
+Wire Wire Line
+	9100 1200 9100 1300
+Wire Wire Line
+	9800 1200 9900 1200
+Wire Wire Line
+	9900 1200 9900 1300
+Wire Wire Line
+	10600 1200 10700 1200
+Wire Wire Line
+	10700 1200 10700 1300
+Wire Wire Line
+	4700 1600 5900 1600
+Wire Wire Line
+	6700 1600 6700 1500
+Wire Wire Line
+	7500 1600 7500 1500
+Connection ~ 6700 1600
+Wire Wire Line
+	8300 1600 8300 1500
+Connection ~ 7500 1600
+Wire Wire Line
+	9100 1600 9100 1500
+Connection ~ 8300 1600
+Wire Wire Line
+	9900 1600 9900 1500
+Connection ~ 9100 1600
+Wire Wire Line
+	10700 1600 10700 1500
+Connection ~ 9900 1600
+Wire Wire Line
+	6600 1800 6700 1800
+Wire Wire Line
+	6700 1800 6700 1900
+Wire Wire Line
+	7400 1800 7500 1800
+Wire Wire Line
+	7500 1800 7500 1900
+Wire Wire Line
+	8200 1800 8300 1800
+Wire Wire Line
+	8300 1800 8300 1900
+Wire Wire Line
+	9000 1800 9100 1800
+Wire Wire Line
+	9100 1800 9100 1900
+Wire Wire Line
+	9800 1800 9900 1800
+Wire Wire Line
+	9900 1800 9900 1900
+Wire Wire Line
+	10600 1800 10700 1800
+Wire Wire Line
+	10700 1800 10700 1900
+Wire Wire Line
+	4700 2200 5900 2200
+Wire Wire Line
+	6700 2200 6700 2100
+Wire Wire Line
+	7500 2200 7500 2100
+Connection ~ 6700 2200
+Wire Wire Line
+	8300 2200 8300 2100
+Connection ~ 7500 2200
+Wire Wire Line
+	9100 2200 9100 2100
+Connection ~ 8300 2200
+Wire Wire Line
+	9900 2200 9900 2100
+Connection ~ 9100 2200
+Wire Wire Line
+	10700 2200 10700 2100
+Connection ~ 9900 2200
+Wire Wire Line
+	6600 2400 6700 2400
+Wire Wire Line
+	6700 2400 6700 2900
+Wire Wire Line
+	7400 2400 7500 2400
+Wire Wire Line
+	7500 2400 7500 2900
+Wire Wire Line
+	8200 2400 8300 2400
+Wire Wire Line
+	8300 2400 8300 2900
+Wire Wire Line
+	9000 2400 9100 2400
+Wire Wire Line
+	9100 2400 9100 2900
+Wire Wire Line
+	9800 2400 9900 2400
+Wire Wire Line
+	9900 2400 9900 2900
+Wire Wire Line
+	10600 2400 10700 2400
+Wire Wire Line
+	10700 2400 10700 2900
+Wire Wire Line
+	4700 3200 5900 3200
+Wire Wire Line
+	6700 3200 6700 3100
+Wire Wire Line
+	7500 3200 7500 3100
+Connection ~ 6700 3200
+Wire Wire Line
+	8300 3200 8300 3100
+Connection ~ 7500 3200
+Wire Wire Line
+	9100 3200 9100 3100
+Connection ~ 8300 3200
+Wire Wire Line
+	9900 3200 9900 3100
+Connection ~ 9100 3200
+Wire Wire Line
+	10700 3200 10700 3100
+Connection ~ 9900 3200
+Wire Wire Line
+	6600 3400 6700 3400
+Wire Wire Line
+	6700 3400 6700 3900
+Wire Wire Line
+	7400 3400 7500 3400
+Wire Wire Line
+	7500 3400 7500 3900
+Wire Wire Line
+	8200 3400 8300 3400
+Wire Wire Line
+	8300 3400 8300 3900
+Wire Wire Line
+	9000 3400 9100 3400
+Wire Wire Line
+	9100 3400 9100 3900
+Wire Wire Line
+	9800 3400 9900 3400
+Wire Wire Line
+	9900 3400 9900 3900
+Wire Wire Line
+	10600 3400 10700 3400
+Wire Wire Line
+	10700 3400 10700 3900
+Wire Wire Line
+	4700 4200 5900 4200
+Wire Wire Line
+	6700 4200 6700 4100
+Wire Wire Line
+	7500 4200 7500 4100
+Connection ~ 6700 4200
+Wire Wire Line
+	8300 4200 8300 4100
+Connection ~ 7500 4200
+Wire Wire Line
+	9100 4200 9100 4100
+Connection ~ 8300 4200
+Wire Wire Line
+	9900 4200 9900 4100
+Connection ~ 9100 4200
+Wire Wire Line
+	10700 4200 10700 4100
+Connection ~ 9900 4200
+Wire Wire Line
+	7400 4400 7500 4400
+Wire Wire Line
+	7500 4400 7500 4500
+Wire Wire Line
+	8200 4400 8300 4400
+Wire Wire Line
+	8300 4400 8300 4500
+Wire Wire Line
+	9000 4400 9100 4400
+Wire Wire Line
+	9100 4400 9100 4500
+Wire Wire Line
+	9800 4400 9900 4400
+Wire Wire Line
+	9900 4400 9900 4500
+Wire Wire Line
+	10600 4400 10700 4400
+Wire Wire Line
+	10700 4400 10700 4500
+Wire Wire Line
+	7500 4800 7500 4700
+Wire Wire Line
+	8300 4800 8300 4700
+Connection ~ 7500 4800
+Wire Wire Line
+	9100 4800 9100 4700
+Connection ~ 8300 4800
+Wire Wire Line
+	9900 4800 9900 4700
+Connection ~ 9100 4800
+Wire Wire Line
+	10700 4800 10700 4700
+Connection ~ 9900 4800
+Wire Wire Line
+	6200 1200 6100 1200
+Connection ~ 6100 1200
+Wire Wire Line
+	6100 1800 6200 1800
+Connection ~ 6100 1800
+Wire Wire Line
+	6100 2400 6200 2400
+Connection ~ 6100 2400
+Wire Wire Line
+	6100 3400 6200 3400
+Wire Wire Line
+	6900 4400 7000 4400
+Wire Wire Line
+	6900 1000 6900 1200
+Wire Wire Line
+	6900 1200 7000 1200
+Connection ~ 6900 1200
+Wire Wire Line
+	6900 1800 7000 1800
+Connection ~ 6900 1800
+Wire Wire Line
+	7000 2400 6900 2400
+Connection ~ 6900 2400
+Wire Wire Line
+	7000 3400 6900 3400
+Connection ~ 6900 3400
+Wire Wire Line
+	7700 1000 7700 1200
+Wire Wire Line
+	7700 1200 7800 1200
+Wire Wire Line
+	7700 1800 7800 1800
+Connection ~ 7700 1200
+Wire Wire Line
+	7700 2400 7800 2400
+Connection ~ 7700 1800
+Wire Wire Line
+	7700 3400 7800 3400
+Connection ~ 7700 2400
+Wire Wire Line
+	7700 4400 7800 4400
+Connection ~ 7700 3400
+Wire Wire Line
+	8500 1000 8500 1200
+Wire Wire Line
+	8500 4400 8600 4400
+Wire Wire Line
+	8500 1200 8600 1200
+Connection ~ 8500 1200
+Wire Wire Line
+	8600 1800 8500 1800
+Connection ~ 8500 1800
+Wire Wire Line
+	8600 2400 8500 2400
+Connection ~ 8500 2400
+Wire Wire Line
+	8600 3400 8500 3400
+Connection ~ 8500 3400
+Wire Wire Line
+	9300 4400 9400 4400
+Wire Wire Line
+	9300 1000 9300 1200
+Wire Wire Line
+	9400 1200 9300 1200
+Connection ~ 9300 1200
+Wire Wire Line
+	9400 1800 9300 1800
+Connection ~ 9300 1800
+Wire Wire Line
+	9400 2400 9300 2400
+Connection ~ 9300 2400
+Wire Wire Line
+	9400 3400 9300 3400
+Connection ~ 9300 3400
+Wire Wire Line
+	10200 1200 10100 1200
+Wire Wire Line
+	10100 1000 10100 1200
+Wire Wire Line
+	10100 1800 10200 1800
+Connection ~ 10100 1200
+Wire Wire Line
+	10100 2400 10200 2400
+Connection ~ 10100 1800
+Wire Wire Line
+	10100 3400 10200 3400
+Connection ~ 10100 2400
+Wire Wire Line
+	10100 4400 10200 4400
+Connection ~ 10100 3400
+Wire Wire Line
+	6100 1000 6100 1200
+Wire Wire Line
+	4700 4800 7500 4800
+$Comp
+L dm9_connector:MJ-4PP-9 CON1
+U 1 1 5B3539EB
+P 2600 4500
+F 0 "CON1" H 2350 4750 60  0000 C CNN
+F 1 "MJ-4PP-9" H 2600 4200 60  0000 C CNN
+F 2 "dm9_conn:MJ-4PP-9" H 2700 4300 60  0001 C CNN
+F 3 "" H 2700 4300 60  0001 C CNN
+	1    2600 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5B3539F2
+P 2200 4900
+F 0 "#PWR07" H 2200 4650 50  0001 C CNN
+F 1 "GND" H 2200 4750 50  0000 C CNN
+F 2 "" H 2200 4900 50  0001 C CNN
+F 3 "" H 2200 4900 50  0001 C CNN
+	1    2200 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR05
+U 1 1 5B3539F8
+P 2200 4100
+F 0 "#PWR05" H 2200 3950 50  0001 C CNN
+F 1 "+5V" H 2200 4240 50  0000 C CNN
+F 2 "" H 2200 4100 50  0001 C CNN
+F 3 "" H 2200 4100 50  0001 C CNN
+	1    2200 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 4300 2200 4300
+Wire Wire Line
+	2200 4300 2200 4100
+Wire Wire Line
+	2100 4500 2300 4500
+Wire Wire Line
+	1900 4000 2100 4000
+Wire Wire Line
+	2100 4000 2100 4500
+Wire Wire Line
+	2300 4700 2200 4700
+Wire Wire Line
+	2200 4700 2200 4900
+$Comp
+L Switch:SW_Push SW_MX31
+U 1 1 5B3668F0
+P 7200 4400
+F 0 "SW_MX31" H 7250 4500 50  0000 L CNN
+F 1 "SW_Push" H 7200 4340 50  0000 C CNN
+F 2 "dm9_keyboard:SW_Cherry_MX1A_1.00u_Plate_double_side" H 7200 4600 50  0001 C CNN
+F 3 "" H 7200 4600 50  0001 C CNN
+	1    7200 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_MX32
+U 1 1 5B3669D5
+P 8000 4400
+F 0 "SW_MX32" H 8050 4500 50  0000 L CNN
+F 1 "SW_Push" H 8000 4340 50  0000 C CNN
+F 2 "dm9_keyboard:SW_Cherry_MX1A_1.00u_Plate_double_side" H 8000 4600 50  0001 C CNN
+F 3 "" H 8000 4600 50  0001 C CNN
+	1    8000 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_MX33
+U 1 1 5B366B95
+P 8800 4400
+F 0 "SW_MX33" H 8850 4500 50  0000 L CNN
+F 1 "SW_Push" H 8800 4340 50  0000 C CNN
+F 2 "dm9_keyboard:SW_Cherry_MX1A_1.00u_Plate_double_side" H 8800 4600 50  0001 C CNN
+F 3 "" H 8800 4600 50  0001 C CNN
+	1    8800 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_MX34
+U 1 1 5B366C80
+P 9600 4400
+F 0 "SW_MX34" H 9650 4500 50  0000 L CNN
+F 1 "SW_Push" H 9600 4340 50  0000 C CNN
+F 2 "dm9_keyboard:SW_Cherry_MX1A_1.00u_Plate_double_side" H 9600 4600 50  0001 C CNN
+F 3 "" H 9600 4600 50  0001 C CNN
+	1    9600 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_MX35
+U 1 1 5B366D6E
+P 10400 4400
+F 0 "SW_MX35" H 10450 4500 50  0000 L CNN
+F 1 "SW_Push" H 10400 4340 50  0000 C CNN
+F 2 "dm9_keyboard:SW_Cherry_MX1A_1.25u_Plate_double_side" H 10400 4600 50  0001 C CNN
+F 3 "" H 10400 4600 50  0001 C CNN
+	1    10400 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_MX2
+U 1 1 5B367424
+P 6400 1200
+F 0 "SW_MX2" H 6450 1300 50  0000 L CNN
+F 1 "SW_Push" H 6400 1140 50  0000 C CNN
+F 2 "dm9_keyboard:SW_Cherry_MX1A_1.00u_Plate_double_side" H 6400 1400 50  0001 C CNN
+F 3 "" H 6400 1400 50  0001 C CNN
+	1    6400 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_MX3
+U 1 1 5B36742A
+P 7200 1200
+F 0 "SW_MX3" H 7250 1300 50  0000 L CNN
+F 1 "SW_Push" H 7200 1140 50  0000 C CNN
+F 2 "dm9_keyboard:SW_Cherry_MX1A_1.00u_Plate_double_side" H 7200 1400 50  0001 C CNN
+F 3 "" H 7200 1400 50  0001 C CNN
+	1    7200 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_MX4
+U 1 1 5B367430
+P 8000 1200
+F 0 "SW_MX4" H 8050 1300 50  0000 L CNN
+F 1 "SW_Push" H 8000 1140 50  0000 C CNN
+F 2 "dm9_keyboard:SW_Cherry_MX1A_1.00u_Plate_double_side" H 8000 1400 50  0001 C CNN
+F 3 "" H 8000 1400 50  0001 C CNN
+	1    8000 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_MX5
+U 1 1 5B367436
+P 8800 1200
+F 0 "SW_MX5" H 8850 1300 50  0000 L CNN
+F 1 "SW_Push" H 8800 1140 50  0000 C CNN
+F 2 "dm9_keyboard:SW_Cherry_MX1A_1.00u_Plate_double_side" H 8800 1400 50  0001 C CNN
+F 3 "" H 8800 1400 50  0001 C CNN
+	1    8800 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_MX6
+U 1 1 5B36743C
+P 9600 1200
+F 0 "SW_MX6" H 9650 1300 50  0000 L CNN
+F 1 "SW_Push" H 9600 1140 50  0000 C CNN
+F 2 "dm9_keyboard:SW_Cherry_MX1A_1.00u_Plate_double_side" H 9600 1400 50  0001 C CNN
+F 3 "" H 9600 1400 50  0001 C CNN
+	1    9600 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_MX7
+U 1 1 5B367442
+P 10400 1200
+F 0 "SW_MX7" H 10450 1300 50  0000 L CNN
+F 1 "SW_Push" H 10400 1140 50  0000 C CNN
+F 2 "dm9_keyboard:SW_Cherry_MX1A_1.00u_Plate_double_side" H 10400 1400 50  0001 C CNN
+F 3 "" H 10400 1400 50  0001 C CNN
+	1    10400 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_MX9
+U 1 1 5B367655
+P 6400 1800
+F 0 "SW_MX9" H 6450 1900 50  0000 L CNN
+F 1 "SW_Push" H 6400 1740 50  0000 C CNN
+F 2 "dm9_keyboard:SW_Cherry_MX1A_1.00u_Plate_double_side" H 6400 2000 50  0001 C CNN
+F 3 "" H 6400 2000 50  0001 C CNN
+	1    6400 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_MX10
+U 1 1 5B36765B
+P 7200 1800
+F 0 "SW_MX10" H 7250 1900 50  0000 L CNN
+F 1 "SW_Push" H 7200 1740 50  0000 C CNN
+F 2 "dm9_keyboard:SW_Cherry_MX1A_1.00u_Plate_double_side" H 7200 2000 50  0001 C CNN
+F 3 "" H 7200 2000 50  0001 C CNN
+	1    7200 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_MX11
+U 1 1 5B367661
+P 8000 1800
+F 0 "SW_MX11" H 8050 1900 50  0000 L CNN
+F 1 "SW_Push" H 8000 1740 50  0000 C CNN
+F 2 "dm9_keyboard:SW_Cherry_MX1A_1.00u_Plate_double_side" H 8000 2000 50  0001 C CNN
+F 3 "" H 8000 2000 50  0001 C CNN
+	1    8000 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_MX12
+U 1 1 5B367667
+P 8800 1800
+F 0 "SW_MX12" H 8850 1900 50  0000 L CNN
+F 1 "SW_Push" H 8800 1740 50  0000 C CNN
+F 2 "dm9_keyboard:SW_Cherry_MX1A_1.00u_Plate_double_side" H 8800 2000 50  0001 C CNN
+F 3 "" H 8800 2000 50  0001 C CNN
+	1    8800 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_MX13
+U 1 1 5B36766D
+P 9600 1800
+F 0 "SW_MX13" H 9650 1900 50  0000 L CNN
+F 1 "SW_Push" H 9600 1740 50  0000 C CNN
+F 2 "dm9_keyboard:SW_Cherry_MX1A_1.00u_Plate_double_side" H 9600 2000 50  0001 C CNN
+F 3 "" H 9600 2000 50  0001 C CNN
+	1    9600 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_MX14
+U 1 1 5B367673
+P 10400 1800
+F 0 "SW_MX14" H 10450 1900 50  0000 L CNN
+F 1 "SW_Push" H 10400 1740 50  0000 C CNN
+F 2 "dm9_keyboard:SW_Cherry_MX1A_1.00u_Plate_double_side" H 10400 2000 50  0001 C CNN
+F 3 "" H 10400 2000 50  0001 C CNN
+	1    10400 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_MX16
+U 1 1 5B367804
+P 6400 2400
+F 0 "SW_MX16" H 6450 2500 50  0000 L CNN
+F 1 "SW_Push" H 6400 2340 50  0000 C CNN
+F 2 "dm9_keyboard:SW_Cherry_MX1A_1.00u_Plate_double_side" H 6400 2600 50  0001 C CNN
+F 3 "" H 6400 2600 50  0001 C CNN
+	1    6400 2400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_MX17
+U 1 1 5B36780A
+P 7200 2400
+F 0 "SW_MX17" H 7250 2500 50  0000 L CNN
+F 1 "SW_Push" H 7200 2340 50  0000 C CNN
+F 2 "dm9_keyboard:SW_Cherry_MX1A_1.00u_Plate_double_side" H 7200 2600 50  0001 C CNN
+F 3 "" H 7200 2600 50  0001 C CNN
+	1    7200 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_MX18
+U 1 1 5B367810
+P 8000 2400
+F 0 "SW_MX18" H 8050 2500 50  0000 L CNN
+F 1 "SW_Push" H 8000 2340 50  0000 C CNN
+F 2 "dm9_keyboard:SW_Cherry_MX1A_1.00u_Plate_double_side" H 8000 2600 50  0001 C CNN
+F 3 "" H 8000 2600 50  0001 C CNN
+	1    8000 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_MX19
+U 1 1 5B367816
+P 8800 2400
+F 0 "SW_MX19" H 8850 2500 50  0000 L CNN
+F 1 "SW_Push" H 8800 2340 50  0000 C CNN
+F 2 "dm9_keyboard:SW_Cherry_MX1A_1.00u_Plate_double_side" H 8800 2600 50  0001 C CNN
+F 3 "" H 8800 2600 50  0001 C CNN
+	1    8800 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_MX20
+U 1 1 5B36781C
+P 9600 2400
+F 0 "SW_MX20" H 9650 2500 50  0000 L CNN
+F 1 "SW_Push" H 9600 2340 50  0000 C CNN
+F 2 "dm9_keyboard:SW_Cherry_MX1A_1.00u_Plate_double_side" H 9600 2600 50  0001 C CNN
+F 3 "" H 9600 2600 50  0001 C CNN
+	1    9600 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_MX21
+U 1 1 5B367822
+P 10400 2400
+F 0 "SW_MX21" H 10450 2500 50  0000 L CNN
+F 1 "SW_Push" H 10400 2340 50  0000 C CNN
+F 2 "dm9_keyboard:SW_Cherry_MX1A_1.00u_Plate_double_side" H 10400 2600 50  0001 C CNN
+F 3 "" H 10400 2600 50  0001 C CNN
+	1    10400 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_MX24
+U 1 1 5B3679C1
+P 6400 3400
+F 0 "SW_MX24" H 6450 3500 50  0000 L CNN
+F 1 "SW_Push" H 6400 3340 50  0000 C CNN
+F 2 "dm9_keyboard:SW_Cherry_MX1A_1.00u_Plate_double_side" H 6400 3600 50  0001 C CNN
+F 3 "" H 6400 3600 50  0001 C CNN
+	1    6400 3400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_MX25
+U 1 1 5B3679C7
+P 7200 3400
+F 0 "SW_MX25" H 7250 3500 50  0000 L CNN
+F 1 "SW_Push" H 7200 3340 50  0000 C CNN
+F 2 "dm9_keyboard:SW_Cherry_MX1A_1.00u_Plate_double_side" H 7200 3600 50  0001 C CNN
+F 3 "" H 7200 3600 50  0001 C CNN
+	1    7200 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_MX26
+U 1 1 5B3679CD
+P 8000 3400
+F 0 "SW_MX26" H 8050 3500 50  0000 L CNN
+F 1 "SW_Push" H 8000 3340 50  0000 C CNN
+F 2 "dm9_keyboard:SW_Cherry_MX1A_1.00u_Plate_double_side" H 8000 3600 50  0001 C CNN
+F 3 "" H 8000 3600 50  0001 C CNN
+	1    8000 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_MX27
+U 1 1 5B3679D3
+P 8800 3400
+F 0 "SW_MX27" H 8850 3500 50  0000 L CNN
+F 1 "SW_Push" H 8800 3340 50  0000 C CNN
+F 2 "dm9_keyboard:SW_Cherry_MX1A_1.00u_Plate_double_side" H 8800 3600 50  0001 C CNN
+F 3 "" H 8800 3600 50  0001 C CNN
+	1    8800 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_MX28
+U 1 1 5B3679D9
+P 9600 3400
+F 0 "SW_MX28" H 9650 3500 50  0000 L CNN
+F 1 "SW_Push" H 9600 3340 50  0000 C CNN
+F 2 "dm9_keyboard:SW_Cherry_MX1A_1.00u_Plate_double_side" H 9600 3600 50  0001 C CNN
+F 3 "" H 9600 3600 50  0001 C CNN
+	1    9600 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_MX29
+U 1 1 5B3679DF
+P 10400 3400
+F 0 "SW_MX29" H 10450 3500 50  0000 L CNN
+F 1 "SW_Push" H 10400 3340 50  0000 C CNN
+F 2 "dm9_keyboard:SW_Cherry_MX1A_1.00u_Plate_double_side" H 10400 3600 50  0001 C CNN
+F 3 "" H 10400 3600 50  0001 C CNN
+	1    10400 3400
+	1    0    0    -1  
+$EndComp
+Text Label 5300 1000 1    60   ~ 0
+COL0
+Text Label 6100 1000 1    60   ~ 0
+COL1
+Text Label 6900 1000 1    60   ~ 0
+COL2
+Text Label 7700 1000 1    60   ~ 0
+COL3
+Text Label 4700 4800 2    60   ~ 0
+ROW4
+Text Label 4700 4200 2    60   ~ 0
+ROW3
+Text Label 4700 3200 2    60   ~ 0
+ROW2
+Text Label 4700 2200 2    60   ~ 0
+ROW1
+Text Label 4700 1600 2    60   ~ 0
+ROW0
+Text Label 8500 1000 1    60   ~ 0
+COL4
+Text Label 9300 1000 1    60   ~ 0
+COL5
+Wire Wire Line
+	2000 6000 2300 6000
+Wire Wire Line
+	2100 5900 2300 5900
+Connection ~ 2100 4500
+Wire Wire Line
+	2000 4600 2000 6000
+$Comp
+L conn:Conn_01x03 J2
+U 1 1 5B37BECC
+P 4100 4800
+F 0 "J2" H 4100 5000 50  0000 C CNN
+F 1 "Conn_01x03" H 4100 4600 50  0000 C CNN
+F 2 "dm9_keyboard:WS2812_tape_10mm" H 4100 4800 50  0001 C CNN
+F 3 "" H 4100 4800 50  0001 C CNN
+	1    4100 4800
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3900 4700 3800 4700
+Wire Wire Line
+	3800 4700 3800 4600
+$Comp
+L power:+5V #PWR06
+U 1 1 5B37DCEE
+P 3800 4600
+F 0 "#PWR06" H 3800 4450 50  0001 C CNN
+F 1 "+5V" H 3800 4740 50  0000 C CNN
+F 2 "" H 3800 4600 50  0001 C CNN
+F 3 "" H 3800 4600 50  0001 C CNN
+	1    3800 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5B37DDD4
+P 3800 5000
+F 0 "#PWR08" H 3800 4750 50  0001 C CNN
+F 1 "GND" H 3800 4850 50  0000 C CNN
+F 2 "" H 3800 5000 50  0001 C CNN
+F 3 "" H 3800 5000 50  0001 C CNN
+	1    3800 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 4900 3800 4900
+Wire Wire Line
+	3800 4900 3800 5000
+Wire Wire Line
+	2900 2300 3100 2300
+Text Label 3100 2300 0    60   ~ 0
+LED
+Text Label 3300 4800 2    60   ~ 0
+LED
+Wire Wire Line
+	1500 1300 1300 1300
+Text Label 1300 1300 2    60   ~ 0
+DATA
+Text Label 1900 4000 2    60   ~ 0
+DATA
+$Comp
+L conn:Conn_01x03 J3
+U 1 1 5B383415
+P 4100 5700
+F 0 "J3" H 4100 5900 50  0000 C CNN
+F 1 "Conn_01x03" H 4100 5500 50  0000 C CNN
+F 2 "dm9_keyboard:WS2812_tape_10mm" H 4100 5700 50  0001 C CNN
+F 3 "" H 4100 5700 50  0001 C CNN
+	1    4100 5700
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3900 5600 3800 5600
+Wire Wire Line
+	3800 5600 3800 5500
+$Comp
+L power:+5V #PWR010
+U 1 1 5B38341D
+P 3800 5500
+F 0 "#PWR010" H 3800 5350 50  0001 C CNN
+F 1 "+5V" H 3800 5640 50  0000 C CNN
+F 2 "" H 3800 5500 50  0001 C CNN
+F 3 "" H 3800 5500 50  0001 C CNN
+	1    3800 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 5B383423
+P 3800 5900
+F 0 "#PWR011" H 3800 5650 50  0001 C CNN
+F 1 "GND" H 3800 5750 50  0000 C CNN
+F 2 "" H 3800 5900 50  0001 C CNN
+F 3 "" H 3800 5900 50  0001 C CNN
+	1    3800 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 5800 3800 5800
+Wire Wire Line
+	3800 5800 3800 5900
+Wire Wire Line
+	3900 5700 3700 5700
+NoConn ~ 1500 1200
+Wire Wire Line
+	3700 5700 3700 4800
+Connection ~ 3700 4800
+Connection ~ 2000 4600
+Wire Wire Line
+	1900 4600 2000 4600
+$Comp
+L conn:Conn_01x01 J1
+U 1 1 5B37ACB9
+P 1700 4600
+F 0 "J1" H 1700 4700 50  0000 C CNN
+F 1 "Conn_01x01" H 1700 4500 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 1700 4600 50  0001 C CNN
+F 3 "" H 1700 4600 50  0001 C CNN
+	1    1700 4600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 2200 3100 2200
+$Comp
+L dm9_switch:TactSW_2pin SW1
+U 1 1 5B3991FA
+P 2200 3200
+F 0 "SW1" H 2200 3400 60  0000 C CNN
+F 1 "TactSW_2pin" H 2200 3100 60  0000 C CNN
+F 2 "dm9_switches:TVBP06" H 2200 3200 60  0001 C CNN
+F 3 "" H 2200 3200 60  0001 C CNN
+	1    2200 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 1600 3100 1600
+NoConn ~ 1500 2300
+$Comp
+L device:D_Small_ALT D1
+U 1 1 5B3D9291
+P 5900 1400
+F 0 "D1" H 5850 1480 50  0000 L CNN
+F 1 "1N4148" H 5750 1320 50  0000 L CNN
+F 2 "dm9_keyboard:D_SOD123_double_side" V 5900 1400 50  0001 C CNN
+F 3 "" V 5900 1400 50  0001 C CNN
+	1    5900 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:D_Small_ALT D8
+U 1 1 5B3D9297
+P 5900 2000
+F 0 "D8" H 5850 2080 50  0000 L CNN
+F 1 "1N4148" H 5750 1920 50  0000 L CNN
+F 2 "dm9_keyboard:D_SOD123_double_side" V 5900 2000 50  0001 C CNN
+F 3 "" V 5900 2000 50  0001 C CNN
+	1    5900 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:D_Small_ALT D15
+U 1 1 5B3D929D
+P 5900 3000
+F 0 "D15" H 5850 3080 50  0000 L CNN
+F 1 "1N4148" H 5750 2920 50  0000 L CNN
+F 2 "dm9_keyboard:D_SOD123_double_side" V 5900 3000 50  0001 C CNN
+F 3 "" V 5900 3000 50  0001 C CNN
+	1    5900 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:D_Small_ALT D22
+U 1 1 5B3D92A3
+P 5900 4000
+F 0 "D22" H 5850 4080 50  0000 L CNN
+F 1 "1N4148" H 5750 3920 50  0000 L CNN
+F 2 "dm9_keyboard:D_SOD123_double_side" V 5900 4000 50  0001 C CNN
+F 3 "" V 5900 4000 50  0001 C CNN
+	1    5900 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5800 1200 5900 1200
+Wire Wire Line
+	5900 1200 5900 1300
+Wire Wire Line
+	5900 1600 5900 1500
+Wire Wire Line
+	5800 1800 5900 1800
+Wire Wire Line
+	5900 1800 5900 1900
+Wire Wire Line
+	5900 2200 5900 2100
+Wire Wire Line
+	5800 2400 5900 2400
+Wire Wire Line
+	5900 2400 5900 2700
+Wire Wire Line
+	5900 3200 5900 3100
+Wire Wire Line
+	5800 3400 5900 3400
+Wire Wire Line
+	5900 3400 5900 3700
+Wire Wire Line
+	5900 4200 5900 4100
+Wire Wire Line
+	5300 3400 5400 3400
+Wire Wire Line
+	5300 2400 5400 2400
+Wire Wire Line
+	5300 1800 5400 1800
+Connection ~ 5300 2400
+Wire Wire Line
+	5300 1200 5400 1200
+Connection ~ 5300 1800
+Connection ~ 5300 1200
+Wire Wire Line
+	5300 1000 5300 1200
+$Comp
+L Switch:SW_Push SW_MX1
+U 1 1 5B3D92C4
+P 5600 1200
+F 0 "SW_MX1" H 5650 1300 50  0000 L CNN
+F 1 "SW_Push" H 5600 1140 50  0000 C CNN
+F 2 "dm9_keyboard:SW_Cherry_MX1A_1.00u_Plate_double_side" H 5600 1400 50  0001 C CNN
+F 3 "" H 5600 1400 50  0001 C CNN
+	1    5600 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_MX8
+U 1 1 5B3D92CA
+P 5600 1800
+F 0 "SW_MX8" H 5650 1900 50  0000 L CNN
+F 1 "SW_Push" H 5600 1740 50  0000 C CNN
+F 2 "dm9_keyboard:SW_Cherry_MX1A_1.00u_Plate_double_side" H 5600 2000 50  0001 C CNN
+F 3 "" H 5600 2000 50  0001 C CNN
+	1    5600 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_MX15
+U 1 1 5B3D92D0
+P 5600 2400
+F 0 "SW_MX15" H 5650 2500 50  0000 L CNN
+F 1 "SW_Push" H 5600 2340 50  0000 C CNN
+F 2 "dm9_keyboard:SW_Cherry_MX1A_1.00u_Plate_double_side" H 5600 2600 50  0001 C CNN
+F 3 "" H 5600 2600 50  0001 C CNN
+	1    5600 2400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_MX23
+U 1 1 5B3D92D6
+P 5600 3400
+F 0 "SW_MX23" H 5650 3500 50  0000 L CNN
+F 1 "SW_Push" H 5600 3340 50  0000 C CNN
+F 2 "dm9_keyboard:SW_Cherry_MX1A_1.00u_Plate_double_side" H 5600 3600 50  0001 C CNN
+F 3 "" H 5600 3600 50  0001 C CNN
+	1    5600 3400
+	-1   0    0    -1  
+$EndComp
+Text Label 10100 1000 1    60   ~ 0
+COL6
+Connection ~ 5900 1600
+Connection ~ 5900 2200
+Connection ~ 5900 3200
+Connection ~ 5900 4200
+$Comp
+L Switch:SW_Push SW_MX22
+U 1 1 5B3DCFF9
+P 5600 2700
+F 0 "SW_MX22" H 5650 2800 50  0000 L CNN
+F 1 "SW_Push" H 5600 2640 50  0000 C CNN
+F 2 "dm9_keyboard:SW_Cherry_MX1A_1.75u_Plate_double_side" H 5600 2900 50  0001 C CNN
+F 3 "" H 5600 2900 50  0001 C CNN
+	1    5600 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW_MX30
+U 1 1 5B3DCFFF
+P 5600 3700
+F 0 "SW_MX30" H 5650 3800 50  0000 L CNN
+F 1 "SW_Push" H 5600 3640 50  0000 C CNN
+F 2 "dm9_keyboard:SW_Cherry_MX1A_1.75u_Plate_double_side" H 5600 3900 50  0001 C CNN
+F 3 "" H 5600 3900 50  0001 C CNN
+	1    5600 3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L dm9_misc:silk SILK1
+U 1 1 5B3DFD09
+P 6200 7000
+F 0 "SILK1" H 6200 7000 60  0000 C CNN
+F 1 "silk" H 6200 6900 60  0000 C CNN
+F 2 "dm9_silks:logo_hsgw_7_5mm" H 6200 7000 60  0001 C CNN
+F 3 "" H 6200 7000 60  0001 C CNN
+	1    6200 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L dm9_misc:silk SILK2
+U 1 1 5B3DFF63
+P 6600 7000
+F 0 "SILK2" H 6600 7000 60  0000 C CNN
+F 1 "silk" H 6600 6900 60  0000 C CNN
+F 2 "dm9_silks:logo_dm9_15mm" H 6600 7000 60  0001 C CNN
+F 3 "" H 6600 7000 60  0001 C CNN
+	1    6600 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 2700 5300 2700
+Connection ~ 5300 2700
+Wire Wire Line
+	5800 2700 5900 2700
+Connection ~ 5900 2700
+Wire Wire Line
+	5300 3700 5400 3700
+Connection ~ 5300 3400
+Wire Wire Line
+	5800 3700 5900 3700
+Connection ~ 5900 3700
+$Comp
+L dm9_misc:silk SILK4
+U 1 1 5B3E7A0E
+P 6600 7300
+F 0 "SILK4" H 6600 7300 60  0000 C CNN
+F 1 "silk" H 6600 7200 60  0000 C CNN
+F 2 "dm9_silks:logo_dm9_15mm" H 6600 7300 60  0001 C CNN
+F 3 "" H 6600 7300 60  0001 C CNN
+	1    6600 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L dm9_misc:silk SILK3
+U 1 1 5B3DC500
+P 6200 7300
+F 0 "SILK3" H 6200 7300 60  0000 C CNN
+F 1 "silk" H 6200 7200 60  0000 C CNN
+F 2 "dm9_silks:logo_hsgw_7_5mm" H 6200 7300 60  0001 C CNN
+F 3 "" H 6200 7300 60  0001 C CNN
+	1    6200 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  1500 900  1600
+Wire Wire Line
+	3000 1200 3000 1500
+Wire Wire Line
+	3700 1300 3700 1400
+Wire Wire Line
+	6700 1600 7500 1600
+Wire Wire Line
+	7500 1600 8300 1600
+Wire Wire Line
+	8300 1600 9100 1600
+Wire Wire Line
+	9100 1600 9900 1600
+Wire Wire Line
+	9900 1600 10700 1600
+Wire Wire Line
+	6700 2200 7500 2200
+Wire Wire Line
+	7500 2200 8300 2200
+Wire Wire Line
+	8300 2200 9100 2200
+Wire Wire Line
+	9100 2200 9900 2200
+Wire Wire Line
+	9900 2200 10700 2200
+Wire Wire Line
+	6700 3200 7500 3200
+Wire Wire Line
+	7500 3200 8300 3200
+Wire Wire Line
+	8300 3200 9100 3200
+Wire Wire Line
+	9100 3200 9900 3200
+Wire Wire Line
+	9900 3200 10700 3200
+Wire Wire Line
+	6700 4200 7500 4200
+Wire Wire Line
+	7500 4200 8300 4200
+Wire Wire Line
+	8300 4200 9100 4200
+Wire Wire Line
+	9100 4200 9900 4200
+Wire Wire Line
+	9900 4200 10700 4200
+Wire Wire Line
+	7500 4800 8300 4800
+Wire Wire Line
+	8300 4800 9100 4800
+Wire Wire Line
+	9100 4800 9900 4800
+Wire Wire Line
+	9900 4800 10700 4800
+Wire Wire Line
+	6100 1200 6100 1800
+Wire Wire Line
+	6100 1800 6100 2400
+Wire Wire Line
+	6100 2400 6100 3400
+Wire Wire Line
+	6900 1200 6900 1800
+Wire Wire Line
+	6900 1800 6900 2400
+Wire Wire Line
+	6900 2400 6900 3400
+Wire Wire Line
+	6900 3400 6900 4400
+Wire Wire Line
+	7700 1200 7700 1800
+Wire Wire Line
+	7700 1800 7700 2400
+Wire Wire Line
+	7700 2400 7700 3400
+Wire Wire Line
+	7700 3400 7700 4400
+Wire Wire Line
+	8500 1200 8500 1800
+Wire Wire Line
+	8500 1800 8500 2400
+Wire Wire Line
+	8500 2400 8500 3400
+Wire Wire Line
+	8500 3400 8500 4400
+Wire Wire Line
+	9300 1200 9300 1800
+Wire Wire Line
+	9300 1800 9300 2400
+Wire Wire Line
+	9300 2400 9300 3400
+Wire Wire Line
+	9300 3400 9300 4400
+Wire Wire Line
+	10100 1200 10100 1800
+Wire Wire Line
+	10100 1800 10100 2400
+Wire Wire Line
+	10100 2400 10100 3400
+Wire Wire Line
+	10100 3400 10100 4400
+Wire Wire Line
+	2100 4500 2100 5900
+Wire Wire Line
+	3700 4800 3900 4800
+Wire Wire Line
+	2000 4600 2300 4600
+Wire Wire Line
+	5300 2400 5300 2700
+Wire Wire Line
+	5300 1800 5300 2400
+Wire Wire Line
+	5300 1200 5300 1800
+Wire Wire Line
+	5900 1600 6700 1600
+Wire Wire Line
+	5900 2200 6700 2200
+Wire Wire Line
+	5900 3200 6700 3200
+Wire Wire Line
+	5900 4200 6700 4200
+Wire Wire Line
+	5300 2700 5300 3400
+Wire Wire Line
+	5900 2700 5900 2900
+Wire Wire Line
+	5300 3400 5300 3700
+Wire Wire Line
+	5900 3700 5900 3900
+Wire Wire Line
+	3300 4800 3700 4800
+$EndSCHEMATC

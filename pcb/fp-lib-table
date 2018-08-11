@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name dm9_keyboard)(type KiCad)(uri C:/Users/USER/Documents/keyboard/inu/pcb/footprint/dm9_keyboard.pretty)(options "")(descr ""))
+)

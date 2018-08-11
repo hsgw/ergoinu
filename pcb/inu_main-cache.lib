@@ -1,0 +1,221 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Switch:SW_Push
+#
+DEF Switch:SW_Push SW 0 40 N N 1 F N
+F0 "SW" 50 100 50 H V L CNN
+F1 "Switch:SW_Push" 0 -60 50 H V C CNN
+F2 "" 0 200 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
+DRAW
+C -80 0 20 0 1 0 N
+C 80 0 20 0 1 0 N
+P 2 0 1 0 0 50 0 120 N
+P 2 0 1 0 100 50 -100 50 N
+X 1 1 -200 0 100 R 50 50 0 1 P
+X 2 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# conn:Conn_01x01
+#
+DEF conn:Conn_01x01 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "conn:Conn_01x01" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -50 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# conn:Conn_01x03
+#
+DEF conn:Conn_01x03 J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "conn:Conn_01x03" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -150 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# device:D_Small_ALT
+#
+DEF device:D_Small_ALT D 0 10 N N 1 F N
+F0 "D" -50 80 50 H V L CNN
+F1 "device:D_Small_ALT" -150 -80 50 H V L CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -30 -40 -30 40 N
+P 2 0 1 0 -30 0 30 0 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dm9_connector:MJ-4PP-9
+#
+DEF dm9_connector:MJ-4PP-9 J 0 40 Y Y 1 F N
+F0 "J" -250 250 60 H V C CNN
+F1 "dm9_connector:MJ-4PP-9" 0 -300 60 H V C CNN
+F2 "" 100 -200 60 H I C CNN
+F3 "" 100 -200 60 H I C CNN
+ALIAS MJ-4PP-9
+DRAW
+P 3 0 1 0 100 -200 50 -150 0 -200 N
+P 3 0 1 0 100 200 -300 200 -300 100 N
+P 4 0 1 0 100 0 0 0 -50 -50 -100 0 N
+P 4 0 1 0 100 100 -100 100 -150 50 -200 100 N
+P 7 0 1 0 -300 100 -325 100 -325 -175 -300 -175 -275 -175 -275 100 -300 100 N
+X ~ 1 300 200 200 L 50 50 1 1 P
+X ~ 2 300 -200 200 L 50 50 1 1 P
+X ~ 3 300 0 200 L 50 50 1 1 P
+X ~ 4 300 100 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dm9_misc:pro_micro
+#
+DEF dm9_misc:pro_micro U 0 40 Y Y 1 F N
+F0 "U" 0 650 60 H V C CNN
+F1 "dm9_misc:pro_micro" 0 -750 60 H V C CNN
+F2 "" -500 0 60 H I C CNN
+F3 "" -500 0 60 H I C CNN
+DRAW
+S -500 600 500 -700 0 1 0 N
+X PD3/TX 1 -700 500 200 R 50 50 1 1 B
+X PE6 10 -700 -400 200 R 50 50 1 1 B
+X PB4 11 -700 -500 200 R 50 50 1 1 B
+X PB5 12 -700 -600 200 R 50 50 1 1 B
+X PB6 13 700 -600 200 L 50 50 1 1 B
+X PB2/MOSI 14 700 -500 200 L 50 50 1 1 B
+X PB3/MISO 15 700 -400 200 L 50 50 1 1 B
+X PB1/SCK 16 700 -300 200 L 50 50 1 1 B
+X PF7/TDI 17 700 -200 200 L 50 50 1 1 B
+X PF6/TDO 18 700 -100 200 L 50 50 1 1 B
+X PF5/TMS 19 700 0 200 L 50 50 1 1 B
+X PD2/RX 2 -700 400 200 R 50 50 1 1 B
+X PF4/TCK 20 700 100 200 L 50 50 1 1 B
+X VCC 21 700 200 200 L 50 50 1 1 I
+X RESET 22 700 300 200 L 50 50 1 1 I I
+X GND 23 700 400 200 L 50 50 1 1 W
+X RAW 24 700 500 200 L 50 50 1 1 W
+X GND 3 -700 300 200 R 50 50 1 1 W
+X GND 4 -700 200 200 R 50 50 1 1 W
+X PD1/SDA 5 -700 100 200 R 50 50 1 1 B
+X PD0/SCL 6 -700 0 200 R 50 50 1 1 B
+X PD4 7 -700 -100 200 R 50 50 1 1 B
+X PC6 8 -700 -200 200 R 50 50 1 1 B
+X PD7 9 -700 -300 200 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# dm9_misc:silk
+#
+DEF dm9_misc:silk SILK 0 40 Y Y 1 F N
+F0 "SILK" 0 0 60 H V C CNN
+F1 "dm9_misc:silk" 0 -100 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -150 50 -150 -50 0 1 0 N
+S -150 50 150 50 0 1 0 N
+S 150 -50 -150 -50 0 1 0 N
+S 150 50 150 -50 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# dm9_switch:TactSW_2pin
+#
+DEF dm9_switch:TactSW_2pin SW 0 40 Y Y 1 F N
+F0 "SW" 0 200 60 H V C CNN
+F1 "dm9_switch:TactSW_2pin" 0 -100 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+C -100 0 15 0 1 0 F
+C 100 0 15 0 1 0 F
+P 2 0 1 0 -100 0 100 100 N
+P 2 0 1 0 125 0 95 0 N
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power:+5V
+#
+DEF power:+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power:+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power:GND
+#
+DEF power:GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power:GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power:PWR_FLAG
+#
+DEF power:PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power:PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+#End Library

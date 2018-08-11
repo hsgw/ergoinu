@@ -1,0 +1,7 @@
+*.ods
+*.csv
+*.bak
+pcb/footprint/
+pcb/gerber/
+pcb/keyplate_from_PCB/
+case/for_elecrow/
