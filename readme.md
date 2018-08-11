@@ -1,7 +1,7 @@
 ErgoInu
 ===
 
-[Ergoinu](https://i.imgur.com/4CCM8Vl.jpg)
+![Ergoinu](https://i.imgur.com/4CCM8Vl.jpg)
 
 A (Not Portable But Small) Ergonomic Split Keyboard.
 
