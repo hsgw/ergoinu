@@ -5,3 +5,15 @@ pcb/footprint/
 pcb/gerber/
 pcb/keyplate_from_PCB/
 case/for_elecrow/
+case/inu_bottom.dxf
+case/inu_inner.dxf
+case/left_plate.dwg
+case/right_plate.dwg
+case/split_left-brd_dev.dwg
+case/split_right-brd_dev.dwg
+case/厚さ.dwg
+_autosave*
+*.kicad_pcb-bak
+*.net
+pcb/rescue-backup/
+.~lock.BOM.ods#
