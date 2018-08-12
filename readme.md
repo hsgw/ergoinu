@@ -10,7 +10,7 @@ Ergoinu
 
 ### Software Supported
 [QMK Firmware (my folk)](https://github.com/hsgw/qmk_firmware)  
-Only on my folk repo, but I send PR to original QMK Firmware repo.  
+Only on my folk repo, but I send PR to original QMK Firmware repo soon.  
 
 ### Build guide
 TODO
