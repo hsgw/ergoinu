@@ -13,7 +13,7 @@ Ergoinu
 Only on my folk repo, but I will send PR to original QMK Firmware repo soon.  
 
 ### Build guide
-TODO
+[ビルドガイド(日本語)](https://github.com/hsgw/ergoinu/blob/master/buildguide_jp.md)
 
 ### Buy
 TODO
