@@ -5,19 +5,23 @@ Ergoinu
 
 ***An (Not Portable But Small) Ergonomic Split Keyboard.***
 
-### Keyboard Maintainer
+## Keyboard Maintainer
 [Twitter @hsgw](https://twitter.com/hsgw)
 
-### Software Supported
-[QMK Firmware (my folk)](https://github.com/hsgw/qmk_firmware)  
-Only on my folk repo, but I will send PR to original QMK Firmware repo soon.  
+## Software Supported
+[QMK Firmware](https://github.com/qmk/qmk_firmware)   
 
-### Build guide
-[ビルドガイド(日本語)](https://github.com/hsgw/ergoinu/blob/master/buildguide_jp.md)
 
-### Buy
+## Build guide
+[ビルドガイド(日本語)](/buildguide_jp.md)
+
+## Before buy kit
+[キットを購入する前に](/before_buy_kit.md)
+
+## Buy
 TODO
 
-### License
-pcb and case design is licensed under creative commons BY SA 4.0  
+## License
+pcb and case designs are licensed under creative commons BY SA 4.0  
+[https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/)   
 (c) Takuya Urakawa (dm9recoreds.com)
