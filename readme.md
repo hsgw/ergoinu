@@ -17,3 +17,7 @@ Only on my folk repo, but I will send PR to original QMK Firmware repo soon.
 
 ### Buy
 TODO
+
+### License
+pcb and case design is licensed under creative commons BY SA 4.0  
+(c) Takuya Urakawa (dm9recoreds.com)
