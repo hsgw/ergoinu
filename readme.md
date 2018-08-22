@@ -16,7 +16,7 @@ Ergoinu
 [ビルドガイド(日本語)](/buildguide_jp.md)
 
 ## Before buy kit
-[キットを購入する前に](/before_buy_kit.md)
+[キットを購入する前に](/before_buy_kit_jp.md)
 
 ## Buy
 TODO
