@@ -11,12 +11,11 @@ Ergoinu
 ## Software Supported
 [QMK Firmware](https://github.com/qmk/qmk_firmware)   
 
-
 ## Build guide
-[ビルドガイド(日本語)](/buildguide_jp.md)
+[ビルドガイド(日本語)](/wiki/ビルドガイド)
 
 ## Before buy kit
-[キットを購入する前に](/before_buy_kit_jp.md)
+[キットを購入する前に](/wiki/キットを購入する前に)
 
 ## Buy
 TODO
