@@ -1,0 +1,13 @@
+remote_theme: "CloudCannon/base-jekyll-template"
+
+title: ergoinu
+url: "https://hsgw.github.io/ergoinu/"
+
+# logo: /siteicon.png
+description: An (not portable but small) ergonomic split keyboad
+
+author:
+  name: Takuya Urakawa
+  email: urkwtky@gmail.com
+  twitter: hsgw
+  
