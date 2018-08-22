@@ -1,1 +1,10 @@
-theme: jekyll-theme-cayman
+remote_theme: "mmistakes/jekyll-theme-basically-basic"
+
+title: ergoinu
+description: An (not portable but small) ergonomic split keyboad
+author:
+  name: Takuya Urakawa
+  twitter: hsgw
+twitter_username: hsgw
+github_username: hsgw
+email: urkwtky@gmail.com
