@@ -1,7 +1,9 @@
 Ergoinu
 ===
 
-![Ergoinu](https://i.imgur.com/4CCM8Vl.jpg)
+![Ergoinu](https://github.com/hsgw/ergoinu/wiki/images/keyboard_top.JPG)
+
+![Ergoinu](https://github.com/hsgw/ergoinu/wiki/images/keyboard2.JPG)
 
 ***An (Not Portable But Small) Ergonomic Split Keyboard.***
 
