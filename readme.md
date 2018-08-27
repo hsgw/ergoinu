@@ -17,7 +17,7 @@ Ergoinu
 [wiki](https://github.com/hsgw/ergoinu/wiki)
 
 ## Buy
-TODO
+[shop](https://dm9.thebase.in/items/13093286)
 
 ## License
 pcb and case designs are licensed under creative commons BY SA 4.0  
